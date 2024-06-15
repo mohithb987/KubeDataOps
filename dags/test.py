@@ -20,7 +20,7 @@ t1 = BashOperator(
     dag=dag
 )
 
-t1 = BashOperator(
+t2 = BashOperator(
     task_id='task2',
     bash_command='echo "Hello from Task 2!"',
     dag=dag
