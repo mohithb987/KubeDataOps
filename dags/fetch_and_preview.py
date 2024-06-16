@@ -63,4 +63,4 @@ preview_data_from_url = PythonOperator(
 
 
 
-get_data >> preview_data_from_url
+get_data_from_url >> preview_data_from_url
