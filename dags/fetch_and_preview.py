@@ -3,6 +3,7 @@ from airflow.operators.python import PythonOperator
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
+import json
 
 def get_data(**kwargs):
     url = 'https://raw.githubusercontent.com/plotly/datasets/master/sales_success.csv'
